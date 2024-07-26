@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(198, 198, 172);
+}
+
+nav {
+    background-color: rgb(24, 24, 2);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    height: 3.5rem;
+    
+    
+}
+
+.nav-item {
+    list-style: none;
+    height: calc(100%);
+    display: flex;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    color: white;
+
+
+}
+
+
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: inherit;
+    
+}
+
+.nav-item a:visited {
+    color: inherit;
+}
+
+.nav-item:hover  a {
+    color: rgb(184, 184, 184);
+    
+}
+
+.nav-item.active {
+    background-color: olive;
+    color: white;
+}
